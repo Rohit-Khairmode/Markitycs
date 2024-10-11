@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple iPhone 14",
+      "price": 79999,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1695578130342-991b58f1ecb8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S22",
+      "price": 99999,
+      "category": "Electronics",
+      "image": "https://d2g44tvvp35wo2.cloudfront.net/photo/global/2022/02/09/Samsung_Galaxy-S22-Ultra_Burgundy.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sony WH-1000XM4 Headphones",
+      "price": 34800,
+      "category": "Electronics",
+      "image": "https://th.bing.com/th/id/OIP.fKub3ghrUWpU9FWGJmIw8gAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 4,
+      "name": "Apple MacBook Air M2",
+      "price": 119900,
+      "category": "Electronics",
+      "image": "https://th.bing.com/th/id/R.c6e09473ec0b4c00c7d1d001445fd52a?rik=d1X%2fRpTvUqNOIQ&riu=http%3a%2f%2fsaigongear.vn%2fupload%2fproduct%2fmbs2_1.jpg&ehk=RI%2bWWCua78bhq%2bJJxo%2bCy5hqg0sDOTRiAgggQcj8I%2bw%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 5,
+      "name": "Bose SoundLink Bluetooth Speaker",
+      "price": 22900,
+      "category": "Electronics",
+      "image": "https://th.bing.com/th/id/OIP.HNxjk5A3SKQAkAnrWaUorwHaGk?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 6,
+      "name": "Nike Air Max 270",
+      "price": 15000,
+      "category": "Footwear",
+      "image": "https://th.bing.com/th/id/OIP.c6cSTibHX9pMlOWDCxSj0wHaFP?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 7,
+      "name": "Adidas Ultraboost",
+      "price": 18000,
+      "category": "Footwear",
+      "image": "https://th.bing.com/th/id/OIP.i4eVaOQSsvL_NvcRQAAOOAHaFj?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 8,
+      "name": "Converse Chuck Taylor All-Star",
+      "price": 6000,
+      "category": "Footwear",
+      "image": "https://th.bing.com/th/id/OIP.U_tiFA7hLyQg9RBGH2lPeQAAAA?w=191&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    },
+    {
+      "id": 9,
+      "name": "Puma RS-X",
+      "price": 12000,
+      "category": "Footwear",
+      "image": "https://th.bing.com/th/id/OIP.w0imc0uW7rd0PgG8OEoUsgAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 10,
+      "name": "Reebok Classic Leather",
+      "price": 9000,
+      "category": "Footwear",
+      "image": "https://th.bing.com/th/id/OIP.63wbJKfjbUR0DbFLHEf-PwHaHa?w=167&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    },
+    {
+      "id": 11,
+      "name": "The Great Gatsby",
+      "price": 500,
+      "category": "Books",
+      "image": "https://th.bing.com/th/id/OIP.eeQkW2jHWzxm-CNyNLsDLQAAAA?w=123&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    },
+    {
+      "id": 12,
+      "name": "1984 by George Orwell",
+      "price": 400,
+      "category": "Books",
+      "image": "https://th.bing.com/th/id/OIP.8weipgxeZASSI2nt9APKNAAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 13,
+      "name": "To Kill a Mockingbird",
+      "price": 300,
+      "category": "Books",
+      "image": "https://th.bing.com/th/id/R.d8633102a0a922dc5a8b52d86cf96627?rik=eT%2fzYY8zCWVH4A&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2f4%2f4f%2fTo_Kill_a_Mockingbird_(first_edition_cover).jpg&ehk=5ktDTwUjcGvaYynHPtvUcUDBh67RbLzGc0B5eYMR%2fUo%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 14,
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "price": 600,
+      "category": "Books",
+      "image": "https://th.bing.com/th/id/OIP.BASGalt69QU62jV8bEd3MgHaIh?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 15,
+      "name": "The Catcher in the Rye",
+      "price": 700,
+      "category": "Books",
+      "image": "https://th.bing.com/th/id/OIP.PQKfkZFKgDWeNleDPTi9dwHaK4?w=206&h=303&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    },
+    {
+      "id": 16,
+      "name": "Levi's Men's 501 Original Fit Jeans",
+      "price": 4000,
+      "category": "Clothing",
+      "image": "https://th.bing.com/th/id/OIP.kvCa67uzezedg-oaqAQsVQHaJ4?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 17,
+      "name": "Patagonia Down Sweater Jacket",
+      "price": 22900,
+      "category": "Clothing",
+      "image": "https://th.bing.com/th/id/OIP.EdrSVWlpqAFo5qo9tGlxPAHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 18,
+      "name": "Nike Sportswear Club Fleece Hoodie",
+      "price": 3500,
+      "category": "Clothing",
+      "image": "https://th.bing.com/th/id/OIP.guUAmgsqLTRbi6tb1oFBdgHaJ3?w=208&h=277&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    },
+    {
+      "id": 19,
+      "name": "Dyson V11 Vacuum Cleaner",
+      "price": 59900,
+      "category": "Home Appliances",
+      "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/leap-petite-global/products/floorcare/sticks/248l-j/variants/nicked-red-j-bb/V11-Outsize-Gallery-2.jpg?&cropPathE=desktop&fit=stretch,1&fmt=pjpeg&wid=1920"
+    },
+    {
+      "id": 20,
+      "name": "Instant Pot Duo 7-in-1",
+      "price": 8999,
+      "category": "Home Appliances",
+      "image": "https://th.bing.com/th/id/OIP.SsqmpcN5rflvPNjhz7T3jwAAAA?w=318&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+    }
+  ]
+}
