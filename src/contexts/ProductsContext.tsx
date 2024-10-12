@@ -1,10 +1,4 @@
-import {
-  createContext,
-  useContext,
-  useReducer,
-  useEffect,
-  useState,
-} from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import { Product } from "../types";
 const ProductsContext = createContext<Product[]>([]);
 function ProductsProvider({ children }: any) {

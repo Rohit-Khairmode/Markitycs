@@ -3,7 +3,7 @@ import {
   PlusCircleIcon,
   TrashIcon,
 } from "@heroicons/react/24/solid";
-import { useState, useTransition } from "react";
+import { useState } from "react";
 import toast from "react-hot-toast";
 import { formatCurrency } from "../utils/helpers";
 import { useCart } from "../contexts/CartContext";
@@ -42,6 +42,7 @@ function CartItem({ item }: any) {
         }
       );
     } catch (err) {
+      console.log(err);
       toast.error("There is some error while updating cart");
     } finally {
       setIsPending(false);
@@ -66,17 +67,19 @@ function CartItem({ item }: any) {
     }
   }
   return (
-    <div className="flex border-3 hover:drop-shadow-lg hover:bg-slate-100 p-2 ease-in duration-100 ">
-      <div>
+    <div className=" w-full flex sm:flex-row flex-col border-3 hover:drop-shadow-lg hover:bg-white p-2 ease-in duration-100 ">
+      <div className="sm:w-1/2">
         <img
           src={item.image}
           alt={`${item.name} image`}
-          className="w-full h-48 xl:h-72 object-cover mb-4"
+          className="w-[100%] h-48 xl:h-72 object-cover mb-4"
         />
       </div>
       <div className="flex flex-col gap-1 justify-evenly px-3">
-        <h3 className="text-primary-600 font-bold">{`${item.name}`}</h3>
-        <strong>{`${formatCurrency(item.price)}`}</strong>
+        <h3 className="text-primary-600 font-bold sm:text-lg text-sm">{`${item.name}`}</h3>
+        <strong className="sm:text-lg text-sm">{`${formatCurrency(
+          item.price
+        )}`}</strong>
         <div className="flex justify-between items-center">
           <div className="flex gap-2">
             <div className="flex items-center">

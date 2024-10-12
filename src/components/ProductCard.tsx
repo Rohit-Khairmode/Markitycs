@@ -22,7 +22,7 @@ function ProductCard({ product }: { product: Product }) {
   return (
     <div
       key={product.id}
-      className="border rounded-lg  bg-accent-20 ease-in duration-300 p-2 hover:bg-slate-100 hover:drop-shadow-lg transition-all"
+      className="border rounded-lg  bg-accent-20 ease-in duration-300 p-2 hover:bg-slate-200 hover:drop-shadow-lg transition-all"
     >
       <img
         src={product.image}
