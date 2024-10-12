@@ -9,7 +9,7 @@
 
 ## Third Party Libraries
 
-1. React Router for navigation.
+1. React Router for navigation. (removed instead showing modal window for cart)
 2. json-server to create end point for fetching products
 3. @heroicons/react for icons
 4. react-hot-toast for toast messages
